@@ -58,7 +58,7 @@ export default function Hero() {
                 Contact Me
               </a>
               <a
-                href="https://drive.google.com/file/d/1cZnOSq7qLSWph4kRDfDJr7u0H_l5X23e/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1lPkSyRNXf8BY2POEvE7QnHNTIyvtEETy/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 bg-black/50 border border-yellow-500/50 hover:border-yellow-500 text-white font-semibold rounded-lg transition-colors text-sm sm:text-base"
