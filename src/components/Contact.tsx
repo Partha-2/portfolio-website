@@ -14,11 +14,36 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setIsSubmitting(false);
-    setSubmitted(true);
-    setFormState({ name: "", email: "", message: "" });
-    setTimeout(() => setSubmitted(false), 3000);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "YOUR_ACCESS_KEY_HERE",
+          name: formState.name,
+          email: formState.email,
+          message: formState.message,
+          subject: `New Message from ${formState.name} via Portfolio`,
+        }),
+      });
+
+      const result = await response.json();
+      if (result.success) {
+        setSubmitted(true);
+        setFormState({ name: "", email: "", message: "" });
+        setTimeout(() => setSubmitted(false), 3000);
+      } else {
+        alert("Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      alert("Error sending message. Please check your connection.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -154,11 +179,10 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitting || submitted}
-                className={`w-full py-2.5 sm:py-3 rounded-lg font-medium text-sm flex items-center justify-center gap-2 transition-colors ${
-                  submitted
-                    ? "bg-green-500 text-white"
-                    : "bg-yellow-500 hover:bg-yellow-400 text-black"
-                }`}
+                className={`w-full py-2.5 sm:py-3 rounded-lg font-medium text-sm flex items-center justify-center gap-2 transition-colors ${submitted
+                  ? "bg-green-500 text-white"
+                  : "bg-yellow-500 hover:bg-yellow-400 text-black"
+                  }`}
               >
                 {isSubmitting ? (
                   <div className="w-4 h-4 border-2 border-black/30 border-t-black rounded-full animate-spin" />
