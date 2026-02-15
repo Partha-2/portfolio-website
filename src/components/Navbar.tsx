@@ -41,9 +41,8 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-200 ${
-          scrolled ? "bg-black/90 backdrop-blur-sm border-b border-neutral-800" : ""
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-200 ${scrolled ? "bg-black/90 backdrop-blur-sm border-b border-neutral-800" : ""
+          }`}
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between h-14 sm:h-16">
@@ -63,6 +62,14 @@ export default function Navbar() {
                   {item.name}
                 </button>
               ))}
+              <a
+                href="https://drive.google.com/file/d/1lPkSyRNXf8BY2POEvE7QnHNTIyvtEETy/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-neutral-400 hover:text-yellow-500 transition-colors"
+              >
+                Resume
+              </a>
               <button
                 onClick={() => scrollTo("#contact")}
                 className="px-4 py-2 bg-yellow-500 hover:bg-yellow-400 text-black text-sm font-medium rounded-lg transition-colors"
@@ -98,6 +105,14 @@ export default function Navbar() {
                   {item.name}
                 </button>
               ))}
+              <a
+                href="https://drive.google.com/file/d/1lPkSyRNXf8BY2POEvE7QnHNTIyvtEETy/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-left text-neutral-400 hover:text-yellow-500 transition-colors py-3 border-b border-neutral-800"
+              >
+                Resume
+              </a>
               <button
                 onClick={() => scrollTo("#contact")}
                 className="mt-4 px-4 py-3 bg-yellow-500 hover:bg-yellow-400 text-black text-sm font-medium rounded-lg transition-colors text-center"
