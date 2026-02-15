@@ -37,7 +37,7 @@ export default function Contact() {
         setFormState({ name: "", email: "", message: "" });
         setTimeout(() => setSubmitted(false), 3000);
       } else {
-        alert("Something went wrong. Please try again later.");
+        alert(result.message || "Something went wrong. Please try again later.");
       }
     } catch (error) {
       alert("Error sending message. Please check your connection.");
