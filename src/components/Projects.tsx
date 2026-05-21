@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FiExternalLink, FiGithub, FiServer, FiDatabase, FiCode } from "react-icons/fi";
+import { FiExternalLink, FiGithub, FiServer, FiDatabase, FiCode, FiBriefcase } from "react-icons/fi";
 
 const projects = [
   {
@@ -38,6 +38,23 @@ const projects = [
     icon: FiDatabase,
     liveUrl: "https://datavisualization-60030162551.development.catalystserverless.in/app/",
     githubUrl: "https://github.com/Partha-2/DataRecord_Backend",
+  },
+  {
+    title: "AI Job Application Assistant",
+    subtitle: "AI-Powered Automation Platform",
+    description:
+      "AI-driven automation platform for resume generation, cover letters, and recruiter outreach emails. Features LLM-based content generation, Excel-to-AI workflow pipeline, and bulk email automation.",
+    features: [
+      "LLM-Based Content Generation",
+      "Excel-to-AI Pipeline",
+      "Bulk Email Automation",
+      "Next.js Backend APIs",
+      "Multi-Platform Outreach",
+    ],
+    tech: ["JavaScript", "Node.js", "Next.js", "LLM Integration", "Vite"],
+    icon: FiBriefcase,
+    liveUrl: "https://ai-job-applicator.vercel.app/",
+    githubUrl: "https://github.com/Partha-2/AI-Job-Applicator",
   },
 ];
 
