@@ -19,7 +19,7 @@ const projects = [
     ],
     tech: ["Spring Boot", "MySQL", "Docker", "Spring Security", "JPA", "OAuth2"],
     icon: FiServer,
-    liveUrl: "https://corpcare-app.vercel.app/",
+    liveUrl: "https://corpcare-afxw.vercel.app/",
     githubUrl: "https://github.com/Partha-2/CorpCare",
   },
   {

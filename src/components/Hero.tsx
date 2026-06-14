@@ -58,7 +58,7 @@ export default function Hero() {
                 Contact Me
               </a>
               <a
-href="https://docs.google.com/document/d/1sFCvxRrlq_MQNrL-3YL8j-FCB0UDUCIY/view"
+href="https://docs.google.com/document/d/1sFCvxRrlq_MQNrL-3YL8j-FCB0UDUCIY/edit"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 bg-black/50 border border-yellow-500/50 hover:border-yellow-500 text-white font-semibold rounded-lg transition-colors text-sm sm:text-base"
