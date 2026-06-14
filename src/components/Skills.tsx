@@ -18,12 +18,12 @@ const skillCategories = [
   {
     title: "Backend & APIs",
     icon: FiServer,
-    skills: ["REST APIs", "API Design", "JWT Auth", "Google OAuth2"],
+    skills: ["REST APIs", "Microservices", "JWT Auth", "Google OAuth2", "JUnit"],
   },
   {
     title: "Database",
     icon: FiDatabase,
-    skills: ["MySQL"],
+    skills: ["PostgreSQL", "MySQL", "SQL Query Optimization", "Data Modeling"],
   },
   {
     title: "AI & APIs",
@@ -38,8 +38,8 @@ const skillCategories = [
 ];
 
 const tools = [
-  "Git", "Docker", "Postman", "MySQL Workbench", "Render", "Zoho Catalyst",
-  "Aiven", "Google Cloud", "Eclipse IDE", "VS Code"
+  "Git", "Docker", "Postman", "IntelliJ IDEA", "DBeaver", "MySQL Workbench",
+  "Render", "Zoho Catalyst", "Aiven", "Google Cloud", "VS Code", "Maven"
 ];
 
 export default function Skills() {

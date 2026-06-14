@@ -45,7 +45,7 @@ export default function Hero() {
             {/* Location */}
             <p className="text-xs text-neutral-500 mb-4 sm:mb-6 flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-yellow-500 rounded-full" />
-              <span className="text-yellow-500">TCS</span> • Bengaluru, India
+              <span className="text-yellow-500">Uno.Care</span> • Bengaluru, India
             </p>
 
             {/* Buttons */}
@@ -58,7 +58,7 @@ export default function Hero() {
                 Contact Me
               </a>
               <a
-                href="/resume.pdf"
+href="https://docs.google.com/document/d/1sFCvxRrlq_MQNrL-3YL8j-FCB0UDUCIY/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 bg-black/50 border border-yellow-500/50 hover:border-yellow-500 text-white font-semibold rounded-lg transition-colors text-sm sm:text-base"

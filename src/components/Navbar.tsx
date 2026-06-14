@@ -63,7 +63,7 @@ export default function Navbar() {
                 </button>
               ))}
               <a
-                href="/resume.pdf"
+                href="https://docs.google.com/document/d/1sFCvxRrlq_MQNrL-3YL8j-FCB0UDUCIY/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-neutral-400 hover:text-yellow-500 transition-colors"
@@ -106,7 +106,7 @@ export default function Navbar() {
                 </button>
               ))}
               <a
-                href="/resume.pdf"
+                href="https://docs.google.com/document/d/1sFCvxRrlq_MQNrL-3YL8j-FCB0UDUCIY/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-left text-neutral-400 hover:text-yellow-500 transition-colors py-3 border-b border-neutral-800"

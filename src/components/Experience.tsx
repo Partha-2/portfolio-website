@@ -5,15 +5,29 @@ import { useInView } from "react-intersection-observer";
 
 const experiences = [
   {
+    title: "Java Developer",
+    company: "Uno.Care - Mysticdoc Healthcare Pvt. Ltd.",
+    period: "May 2026 - Present",
+    description: [
+      "Building backend services for a live healthcare platform using Java 11 and Spring Boot",
+      "Developing and testing RESTful APIs for healthcare workflows and validating them using Postman",
+      "Writing JPA and Hibernate queries against a PostgreSQL database and using DBeaver to inspect and manage data",
+      "Implementing JWT-based authentication with Spring Security for login and role-based access",
+      "Fixing backend defects raised during QA testing",
+      "Coordinating with frontend and product teams to deliver backend changes",
+    ],
+  },
+  {
     title: "Analyst (Java Developer)",
     company: "Tata Consultancy Services (TCS)",
-    period: "February 2025 - Present",
+    period: "February 2025 - March 2026",
     description: [
-      "Developed backend modules using Java and Spring Boot for enterprise web applications",
-      "Designed and implemented REST APIs for data processing and business workflows",
-      "Built CRUD functionality using Hibernate/JPA with MySQL database",
-      "Improved application stability by fixing backend defects and optimizing features",
-      "Tested APIs using Postman and validated data consistency with SQL queries",
+      "Developed backend modules using Core Java and Spring Boot for enterprise client applications",
+      "Worked on RESTful API development for business workflows and integrated them with existing backend services",
+      "Implemented CRUD operations using Spring Data JPA and Hibernate with MySQL",
+      "Fixed production defects and bugs logged in the defect tracker and tested fixes using Postman",
+      "Wrote and verified SQL queries to check data accuracy during testing and after API changes",
+      "Attended daily standups and sprint ceremonies as part of Agile and Scrum delivery",
     ],
   },
   {

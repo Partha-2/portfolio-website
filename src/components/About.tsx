@@ -5,11 +5,9 @@ import { useInView } from "react-intersection-observer";
 import { FiExternalLink, FiAward } from "react-icons/fi";
 
 const certifications = [
-  { name: "TCS iON NQT (IT)", file: "/tcs-nqt.pdf" },
   { name: "Core Java (Udemy)", file: "/core-java.pdf" },
-  { name: "Java Programming", file: "/java-cert.pdf" },
-  { name: "Web Development", file: "/web-development.pdf" },
-  { name: "NPTEL IoT", file: "/nptel-iot.pdf" },
+  { name: "Java JSE Certification", file: "/java-jse-cert.pdf" },
+  { name: "TCS iON NQT (IT)", file: "/tcs-nqt.pdf" },
 ];
 
 export default function About() {
@@ -38,15 +36,14 @@ export default function About() {
             {/* Left - Description */}
             <div className="space-y-4 sm:space-y-6">
               <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">
-                I&apos;m a Java Backend Developer currently working at{" "}
-                <span className="text-white">Tata Consultancy Services (TCS)</span>.
-                With expertise in Spring Boot, REST APIs, and database-driven applications,
-                I specialize in building secure, scalable backend systems.
+                Java Backend Developer with 1+ year of experience building Spring Boot applications and RESTful APIs in both service-based and product company environments. Currently working at{" "}
+                <span className="text-white">Uno.Care (Mysticdoc Healthcare Pvt. Ltd.)</span>{" "}
+                on a live healthcare platform using Java 11, PostgreSQL, Spring Boot, and Spring Security.
               </p>
               <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">
-                My journey includes developing full-stack platforms like{" "}
-                <span className="text-yellow-500">Career Agent AI</span> - an AI-powered job matching platform,
-                and <span className="text-yellow-500">Data Visualization Dashboard</span> for analytics and reporting.
+                Previously at <span className="text-white">Tata Consultancy Services (TCS)</span>, I delivered backend modules and fixed production defects for enterprise clients. My projects include{" "}
+                <span className="text-yellow-500">Career Agent AI</span> - an AI-powered job matching platform,{" "}
+                <span className="text-yellow-500">CorpCare</span> - a corporate health management platform, and more.
               </p>
               <p className="text-neutral-400 text-sm sm:text-base leading-relaxed">
                 I believe in writing clean, maintainable code and building systems that make a real impact.

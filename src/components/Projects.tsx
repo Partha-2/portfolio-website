@@ -6,6 +6,23 @@ import { FiExternalLink, FiGithub, FiServer, FiDatabase, FiCode, FiBriefcase } f
 
 const projects = [
   {
+    title: "CorpCare",
+    subtitle: "Enterprise Health Management Platform",
+    description:
+      "A full-stack corporate health management platform with RESTful API architecture, role-based access, and modules for employee health records, appointment booking, and wellness tracking.",
+    features: [
+      "RESTful API with Spring Boot",
+      "JWT & OAuth2 Authentication",
+      "Role-based Access (Admin, HR, Employee)",
+      "MySQL with JPA/Hibernate",
+      "Docker Deployment",
+    ],
+    tech: ["Spring Boot", "MySQL", "Docker", "Spring Security", "JPA", "OAuth2"],
+    icon: FiServer,
+    liveUrl: "https://corpcare-app.vercel.app/",
+    githubUrl: "https://github.com/Partha-2/CorpCare",
+  },
+  {
     title: "Career Agent AI",
     subtitle: "AI-Powered Job Matching Platform",
     description:

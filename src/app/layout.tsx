@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Partha Sarathy | Java Backend Developer",
   description:
-    "Java Backend Developer with expertise in Spring Boot, REST APIs, and cloud-native solutions. Building scalable systems at TCS.",
+    "Java Backend Developer with expertise in Spring Boot, REST APIs, and cloud-native solutions. Building scalable systems at Uno.Care and TCS.",
   keywords: [
     "Java Developer",
     "Backend Developer",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Partha Sarathy | Java Backend Developer",
     description:
-      "Java Backend Developer with expertise in Spring Boot, REST APIs, and cloud-native solutions.",
+      "Java Backend Developer with expertise in Spring Boot, REST APIs, and cloud-native solutions. Building scalable systems at Uno.Care and TCS.",
   },
 };
 
